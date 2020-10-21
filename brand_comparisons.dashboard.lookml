@@ -325,23 +325,23 @@
     default_value: 12 weeks ago for 12 weeks
     allow_multiple_values: true
     required: false
-  - name: Brand Filter
-    title: Brand Filter
-    type: field_filter
-    default_value: '"Levi''s"'
-    allow_multiple_values: false
-    required: true
-    model: nj_casestudies
-    explore: order_items
-    listens_to_filters: []
-    field: products.brand_filter
-  - name: Comparison Category
-    title: Comparison Category
-    type: field_filter
-    default_value: Jeans
-    allow_multiple_values: false
-    required: false
-    model: nj_casestudies
-    explore: order_items
-    listens_to_filters: []
-    field: products.category_filter
+  # - name: Brand Filter
+  #   title: Brand Filter
+  #   type: string_filter
+  #   default_value: '"Levi''s"'
+  #   allow_multiple_values: false
+  #   required: true
+  #   model: nj_casestudies
+  #   explore: order_items
+  #   listens_to_filters: []
+  #   field: products.brand_filter
+  # - name: Comparison Category
+  #   title: Comparison Category
+  #   type: string_filter
+  #   default_value: Jeans
+  #   allow_multiple_values: false
+  #   required: false
+  #   model: nj_casestudies
+  #   explore: order_items
+  #   listens_to_filters: []
+  #   field: products.category_filter

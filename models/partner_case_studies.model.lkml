@@ -2,6 +2,7 @@ connection: "snowlooker"
 
 # include all the views
 include: "/views/**/*.view"
+include: "/**/*.dashboard.lookml"
 
 datagroup: partner_casestudies_default_datagroup {
   sql_trigger: SELECT count(*) FROM "PUBLIC"."ORDER_ITEMS";;
